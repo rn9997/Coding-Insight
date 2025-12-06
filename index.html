@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>CodeMaster - Home</title>
+<link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+
+<header>
+  <h1>CodeMaster</h1>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="courses.html">Courses</a>
+    <a href="signin.html">Sign In</a>
+    <a href="plans.html">Plans</a>
+  </nav>
+</header>
+
+<section>
+  <h2>Transform Your Coding Experience</h2>
+  <p>Break down complex code, convert languages, import/export seamlessly, and join a community of learners and professionals. Welcome to the future of coding!</p>
+  <a href="courses.html" class="btn">Explore Courses</a>
+</section>
+
+<section>
+  <h2>Features</h2>
+  <div class="features-grid">
+    <div class="card">
+      <h3>Break Your Code Down</h3>
+      <p>Split large code files into manageable chunks for easier understanding and debugging.</p>
+    </div>
+    <div class="card">
+      <h3>Download & Import</h3>
+      <p>Seamlessly import/export your code projects with just a few clicks.</p>
+    </div>
+    <div class="card">
+      <h3>Code Conversion</h3>
+      <p>Convert your code between multiple programming languages easily.</p>
+    </div>
+    <div class="card">
+      <h3>Premium & Classroom</h3>
+      <p>Unlock advanced features and collaborate with others.</p>
+    </div>
+  </div>
+</section>
+
+<button class="btn" onclick="showChatbot()">Ask AI Chatbot</button>
+
+<!-- Chatbot Modal -->
+<div id="chatbotModal">
+  <div id="chatbotContent">
+    <div id="chatbotMessages"></div>
+    <input type="text" id="chatInput" placeholder="Type your message..." />
+    <button id="closeChatbot" onclick="hideChatbot()">Close</button>
+  </div>
+</div>
+
+<script src="script.js"></script>
+<script src="chatbot.js"></script>
+</body>
+</html>
