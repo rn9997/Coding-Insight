@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>CodeMaster - Plans</title>
+<link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+
+<header>
+  <h1>CodeMaster</h1>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="courses.html">Courses</a>
+    <a href="signin.html">Sign In</a>
+    <a href="plans.html">Plans</a>
+  </nav>
+</header>
+
+<section>
+  <h2>Choose Your Plan</h2>
+  <div class="features-grid">
+    <div class="card">
+      <h3>Basic</h3>
+      <p>Free plan with limited courses and features.</p>
+      <p>Price: Free</p>
+      <button class="btn" onclick="subscribe('Basic')">Select</button>
+    </div>
+    <div class="card">
+      <h3>Pro</h3>
+      <p>More courses, ad-free, AI chatbot support.</p>
+      <p>Price: $5/month</p>
+      <button class="btn" onclick="subscribe('Pro')">Select</button>
+    </div>
+    <div class="card">
+      <h3>Max</h3>
+      <p>Unlimited courses, AI chatbot, classroom access.</p>
+      <p>Price: $10/month</p>
+      <button class="btn" onclick="subscribe('Max')">Select</button>
+    </div>
+  </div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
